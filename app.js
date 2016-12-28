@@ -8,6 +8,8 @@ router.post('/solutions', function (req, res) {
     console.log(req.body);
 })
 
+module.exports = router
+
 app.listen(app.get('port'), function () {
   console.log('Example app listening on port ' + app.get('port'))
 })
