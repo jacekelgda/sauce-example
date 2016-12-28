@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 
 router.post('/solutions', function (req, res) {
-    console.log(req.body);
+    console.log(req);
 })
 module.exports = router
 app.use('/api', router);
