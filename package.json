@@ -1,0 +1,13 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.14.0",
+    "selenium-webdriver": "^3.0.1",
+    "webdriverio": "^4.5.2"
+  }
+}
