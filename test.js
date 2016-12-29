@@ -23,3 +23,11 @@ driver.getTitle().then(function (title) {
 });
 
 driver.quit();
+
+someFunction = () => {
+    console.log('someFunction');
+}
+
+module.exports = {
+    someFunction
+}
