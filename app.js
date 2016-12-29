@@ -10,8 +10,8 @@ app.use(bodyParser.json())
 
 router.post('/solutions', function (req, res) {
     console.log(req.body);
+    test.callWebDriver(req.body);
 })
-module.exports = router
 app.use('/api', router);
 
 app.listen(app.get('port'), function () {
